@@ -1,0 +1,17 @@
+.Main-site-main {
+   border: 1px solid white;
+   padding: 10px;
+   /* background-color: black; */
+   height: 100vh;
+   border: 5px solid red;
+}
+
+
+.Main-site-main {
+   grid-area: m;
+} 
+
+.section {
+   padding: 10px;
+   margin: 5px;
+}

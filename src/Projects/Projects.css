@@ -1,0 +1,77 @@
+.Sidebar-site {
+   padding: 10px;
+   margin: 25px 0px;
+   height: 100vh;
+}
+
+.section {
+   display: grid;
+   grid-template-areas:
+      "leftside rightside"
+      "leftside rightside"
+      "leftside rightside";
+   background: #2c2e50;
+   border-radius: 10px;
+   box-shadow: 0px 0px 10px 0px gray;
+   margin: 25px 0;
+   height: 300px;
+   padding: 25px;
+}
+.project2-style{
+   
+      display: grid;
+      grid-template-areas:
+         "leftside rightside"
+         "leftside rightside"
+         "leftside rightside";
+      background: #2c2e50;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px 0px gray;
+      margin: 25px 0;
+      height: 500px;
+      padding: 25px;
+}
+
+.about-project {
+   grid-area: leftside;
+   color: white;
+   width: 550px;
+}
+
+.app-project {
+   grid-area: rightside;
+   background-color: #2c3e50;
+   border-radius: 10px;
+   color: white;
+   box-shadow: inset 0px 0px 5px 0px gray;
+   padding: 15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   width: 550px;
+}
+
+
+.description {
+   text-align: center;
+}
+
+.about-project h1:hover{
+   text-decoration: underline;
+   }
+   
+   .about-project h3{
+       color: gold;
+       margin: 10px 0;
+    }
+   
+     .link-to-code a {
+       color: lightgray;
+    }
+    
+    .link-to-code a:hover {
+       text-decoration: underline;
+    }
+    
