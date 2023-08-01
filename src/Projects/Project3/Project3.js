@@ -14,6 +14,10 @@ export default function Project3() {
     if (selectRef.current.selectedIndex) {
       setVisibleDataUser(true);
       setDataUser(data[selectRef.current.selectedIndex-1]);
+
+      // selectRef.current.options[selectRef.current.options[0]].classList.remove('selected')
+
+      selectRef.current.options[selectRef.current.selectedIndex].classList.add('selected')
     }
   }
   console.log(dataUser);
@@ -38,7 +42,7 @@ export default function Project3() {
         <div className="Project3-input">
 
           <select ref={selectRef} onChange={getValue} name="select" id="Project3-select" >
-            <option key={new Date().getTime().toString()} value="" hidden>to choose customer</option>
+            <option key={new Date().getTime().toString()} value="0" selected hidden>to choose customer</option>
             {data.map((item) => <option key={item.id} value={item.id} >{item.name}</option>)}
           </select>
 

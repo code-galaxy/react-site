@@ -58,11 +58,11 @@
     color: lightgray;
   }
   .Project3-out ul li span{
-    /* font-weight: bold; */
+    font-weight:400;
     font-size: 16px;
-    color: red;
+    color: white;
   }
   .Project3-out ul li a{
-    color: red;
+    color: white;
     text-decoration: underline;
   }
