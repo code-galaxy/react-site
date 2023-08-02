@@ -12,7 +12,15 @@ function Projects() {
             <div className="about-project">
                <h1>Project #3</h1>
                <h3>Get user data</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum labore, veritatis quidem eaque nam officia et ut soluta porro blanditiis eos ducimus sint a optio necessitatibus perferendis maiores amet quos!</p>
+               <p>опис проекту, що робить </p>
+               <p>I get the data from https://jsonplaceholder.typicode.com/users </p>
+               <p>In this pet project, I used</p>
+               <ul>
+                  <li>fetch</li>
+                  <li>useEffect()</li>
+                  <li>useState()</li>
+                  <li>useRef()</li>
+               </ul>
             </div>
             <div className="app-project">{<Project3 />}</div>
          </section>
