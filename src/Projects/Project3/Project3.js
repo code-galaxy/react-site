@@ -162,7 +162,7 @@ export default function Project3() {
         </div>
       </div >
       <div className="link-to-code">
-        <a href="https://css.in.ua/html/tag/a/target" target="_blanc">
+        <a href="https://github.com/code-galaxy/react-site/blob/main/src/Projects/Project3/Project3.js" target="_blanc">
           view code
         </a>
       </div>

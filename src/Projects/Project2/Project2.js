@@ -32,7 +32,7 @@ export default function Project2() {
          }
        </div>
       <div className="link-to-code">
-        <a href="https://github.com/code-galaxy/react-projects/blob/main/src/Projects/Project2/Project2.js" target="_blanc">
+        <a href="https://github.com/code-galaxy/react-site/blob/main/src/Projects/Project2/Project2.js" target="_blanc">
           view code
         </a>
       </div>

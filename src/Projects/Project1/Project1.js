@@ -34,7 +34,7 @@ export default function Project1() {
             <h4>{count % 2 === 0 ? 'even' : "odd"}</h4>
          </div>
          <div className="link-to-code">
-            <a href="https://github.com/code-galaxy/react-projects/blob/main/src/Projects/Project1/Project1.js" target="_blanc" >view code</a>
+            <a href="https://github.com/code-galaxy/react-site/blob/main/src/Projects/Project1/Project1.js" target="_blanc" >view code</a>
          </div>
       </>
    )
