@@ -6,7 +6,6 @@ import Contact from './Contact/Contact';
 import Home from './Home/Home';
 import Erorr from './Erorr/Erorr';
 
-// import Projects from './Main/Projects/Projects';
 
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
