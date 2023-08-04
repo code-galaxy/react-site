@@ -34,7 +34,7 @@ export default function About() {
                   <li>2</li>
                   <li>3</li>
                   <li>4</li>
-                  <li>Development of a Landing page <br/> with use HTML, CSS, Bootstrap </li>
+                  <li>Development of a Landing page <br /> with use HTML, CSS, Bootstrap </li>
                   <li>5</li>
                   <li>Cypress test automate</li>
                   <li>MySQL</li>
@@ -47,10 +47,9 @@ export default function About() {
                <h2>Personal-qualities</h2>
                <ul>
                   <li>Self-reliance</li>
-                  <li>Willpower</li>
-                  <li>Patience</li>
-                  <li>Integrity</li>
-                  <li>Optimism</li>
+                  <li>Able to prioritise tasks effectively, ensuring efficient <br /> allocation of time and resources to maximise productivity</li>
+                  <li>Skilled in desicion making, conflict resolution and <br /> strategic planning, enabling sucsessful project execution <br /> and team efficiency.</li>
+                  <li>Highly self motivated profesional whith strong <br />intrinsic drive to excel and achieve results </li>
                   <li>Self-confidence</li>
                   <li>Attentive to details</li>
                   <li>Good communication skills</li>
