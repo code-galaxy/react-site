@@ -16,7 +16,6 @@ export default function Project3() {
   const [visibleLiCompany, setvisibleLiCompany] = React.useState(false);
 
   const selectRef = React.useRef();
-  const checkboxIdRef = React.useRef();
   const checkboxUserNameRef = React.useRef();
   const checkboxEmailRef = React.useRef();
   const checkboxPhoneRef = React.useRef();

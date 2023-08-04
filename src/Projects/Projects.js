@@ -9,7 +9,7 @@ function Projects() {
       <div className="Sidebar-site">
          <h1>My pet (React) Projects is here</h1>
 
-         <section className="section">
+         <section className="section project2-style">
             <div className="about-project">
                <h1>Project #4</h1>
                <h3>????? use React.useState()</h3>

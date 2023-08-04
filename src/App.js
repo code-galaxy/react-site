@@ -1,13 +1,14 @@
 import './App.css';
-import About from './About/About';
+
 import Header from "./Header/Header";
-import Projects from './Projects/Projects';
-import Contact from './Contact/Contact';
 import Home from './Home/Home';
+import About from './About/About';
+import Projects from './Projects/Projects';
+import Contacts from './Contacts/Contacts';
 import Erorr from './Erorr/Erorr';
 
 
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contacts" element={<Contacts />} />
           <Route path="*" element={<Erorr />} />
         </Routes>
       </Router>

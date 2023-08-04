@@ -1,17 +1,61 @@
-.Main-site-main {
-   border: 1px solid white;
+.About-site {
    padding: 10px;
-   /* background-color: black; */
-   height: 100vh;
-   border: 5px solid red;
+}
+.about-summary {
+   font-size: 25px;
+   margin: 25px;
+   text-align: center;
+}
+.about-description {
+   display: flex;
+   justify-content: space-between;
+   align-items: start;
+   margin-top: 50px;
 }
 
+.about-link-cv {
+   text-align: center;
+}
 
-.Main-site-main {
-   grid-area: m;
-} 
+.about-link-cv a {
+   text-decoration: underline;
+   color: blue;
+   font-weight: 800;
+   font-size: 18px;
+}
 
-.section {
-   padding: 10px;
-   margin: 5px;
+.about-certificate {
+   margin: 50px 0 25px 0;
+   display: flex;
+   flex-direction: column;
+}
+
+.about-certificate h2 {
+   letter-spacing: 4px;
+   text-align: center;
+   margin: 15px;
+}
+
+.about-img {
+   display: flex;
+   justify-content: space-between;
+}
+.about-experience span{
+color: blue;
+text-decoration: underline;
+}
+.about-img img {
+   width: 270px;
+   height: 200px;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.about-stack ul li, .about-experience ul li, .personal-qualities ul li {
+   color: black;
+   font-size: 18px;
+   margin-left: 20px;
+}
+.about-stack ul, .about-experience ul, .personal-qualities ul{
+   border-left: 1px solid gray;
+   margin-top: 15px;
 }

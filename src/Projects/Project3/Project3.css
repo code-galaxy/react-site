@@ -27,7 +27,7 @@
   }
 
   .Project3-btn {
-    background: gray;
+    background: lightgray;
     padding: 5px 20px;
     margin-top: 20px;
     border-radius: 5px;
@@ -37,10 +37,10 @@
     cursor: pointer;
     width: 100%;
   }
-
+/* 
   .btn-clear {
-    background-color: chocolate;
-  }
+    background-color: ;
+  } */
 
   #Project3-select option {
     color: black;
@@ -56,25 +56,26 @@
   .Project3-out ul li {
     margin: 20px;
     font-size: 14px;
-    color: lightgray;
+    color: black;
   }
 
   .Project3-out ul li span {
     font-weight: bold;
     font-size: 16px;
-    color: white;
+    color: black;
   }
 
   .Project3-out ul li a {
-    color: white;
+    color: black;
     text-decoration: underline;
   }
 
   .Project3-out div p {
     text-align: center;
     font-size: 14px;
-    margin: 0 30px;
+    margin: 30px 30px;
     padding: 30px 0;
-    background-color: gray;
+    background-color: lightgray;
+    border-radius: 30px;
   }
   

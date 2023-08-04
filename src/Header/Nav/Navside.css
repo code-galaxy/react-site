@@ -12,7 +12,8 @@
 }
 
 .Navside-container li a:hover {
-   color: lightcoral;
+   color:black;
+   font-weight: 800;
 }
 
 
@@ -20,14 +21,14 @@
    content: '';
    display: block;
    width: 100%;
-   height: 2px;
-   background-color: white;
+   height: 1px;
+   background-color: black;
    transform: scale(0);
    transition: all .5s;
 }
 
 .nav-item a:hover::after {
-   transform: scale(0.75);
+   transform: scale(1.25);
 }
 
 .Navside-logo {
