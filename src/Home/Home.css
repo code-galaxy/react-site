@@ -1,4 +1,4 @@
-.About-site {
+.Home-site {
    padding: 50px 0;
    margin: 5px 0;
    display: flex;
@@ -6,32 +6,39 @@
    align-content: center;
    align-items: center;
 }
-.about-container{
+
+.home-container {
    display: flex;
    justify-content: flex-end;
    align-content: center;
    padding: 100px 0 50px 0;
 }
-.my-foto{
-   width: 700px;
-   height: 480px;
-   border-radius: 50px;
-   }
 
-.About-site h1{
+.home-my-foto {
+   min-width: 650px;
+   height: 491px;
+   border-radius: 20px;
+   background-image: url("./images/my_foto3.jpg");
+   background-position: top;
+   background-repeat: no-repeat;
+}
+
+.Home-site h1 {
    text-align: center;
 }
 
-.about-me-info{
+.home-me-info {
    padding-left: 30px;
    font-size: 28px;
    /* background-color: #2c2e50; */
    color: white;
-   
+
 }
-.about-me-info p{
+
+.home-me-info p {
    margin-bottom: 15px;
 }
-.about-congratulation{
+
+.home-congratulation {
    font-size: 50px;
 }

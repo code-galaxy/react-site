@@ -8,7 +8,7 @@ export default function About() {
    return (
       <div className="About-site">
          <div className="about-summary"><p>I'm an enthusiastic and detail-oriented Frontend React Software Engineer, seeking an entry-level position with your company to use my skills in coding, troubleshooting complex problems, and assisting in the timely completion of projects.</p></div>
-         <div className="about-description">
+         <div className="about-description trek">
             <div className="about-stack">
                <h2>Skills</h2>
                <ul>
@@ -59,9 +59,10 @@ export default function About() {
                </ul>
             </div>
          </div>
+         <div className='about-link-cv'><a href="https://drive.google.com/file/d/1-vN6aybL5JkXzeTudpL_JlUc6JTrrcSr/view?usp=drive_link" target='_blanc'>Download CV</a></div>
 
          <div className='about-certificate'>
-            <h2>CERTIFICATE</h2>
+            <h2>CERTIFICATES</h2>
             <div className="about-img">
                <a href="https://itgid.info/ua/certificate/view?Certificate%5Buid%5D=htsf6fmr4qdk" target="_blanc" ><img src={certificateHtmlCss} alt="HTML&CSS" title="HTML&CS" /></a>
                <a href="https://itgid.info/ua/certificate/view?Certificate%5Buid%5D=7e2t9kftqa9d" target="_blanc"><img src={certificateJS} alt="Java Script" title="Java Script" /></a>
@@ -69,7 +70,6 @@ export default function About() {
                <a href="https://itgid.info/ua/certificate/view?Certificate%5Buid%5D=19rd8j5suecn" target="_blanc"> <img src={certificateJSArray} alt="JS Array Method" title="JS Array Method" /></a>
             </div>
          </div>
-         <div className='about-link-cv'><a href="https://drive.google.com/file/d/1-vN6aybL5JkXzeTudpL_JlUc6JTrrcSr/view?usp=drive_link" target='_blanc'>Download CV</a></div>
       </div>
    )
 }
