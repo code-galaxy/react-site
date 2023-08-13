@@ -16,6 +16,7 @@ export default function Home() {
                <p>My name is Yaroslav Karpash</p>
                <p>I am a frontend developer</p>
                <p>I enjoy building different projects on React JS</p>
+               <p></p>
                <p>My credo - "Whatever you do, do it properly"</p>
             </div>
          </div>
