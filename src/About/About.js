@@ -46,15 +46,15 @@ export default function About() {
             <div className="personal-qualities">
                <h2>Personal-qualities</h2>
                <ul>
-                  <li>Self-reliance</li>
-                  <li>Able to prioritise tasks effectively, ensuring efficient <br /> allocation of time and resources to maximise productivity</li>
+                  <li>A creative thinker, able to conceptualise innovative  <br />solution for complex problems.</li>
+                  <li>Able to prioritise tasks effectively, ensuring efficient <br /> allocation of time and resources to maximise productivity.</li>
                   <li>Skilled in desicion making, conflict resolution and <br /> strategic planning, enabling sucsessful project execution <br /> and team efficiency.</li>
-                  <li>Highly self motivated profesional whith strong <br />intrinsic drive to excel and achieve results </li>
-                  <li>Self-confidence</li>
-                  <li>Attentive to details</li>
-                  <li>Good communication skills</li>
-                  <li>Reliable, fast learner</li>
-                  <li>Independent and punctual</li>
+                  <li>Highly self motivated profesional whith strong <br />intrinsic drive to excel and achieve results.</li>
+                  <li>Skilled in managing complex projects, effectively  <br />allocating resourses ande optimising team productivity.</li>
+                  <li> Able to leverege persuasive communication tachniques<br />to negotiate with key stakeholders and drive positive <br />outcomes for organizations.</li>
+                  <li>Able to mediate complex disputes, utalisting diplomacy  <br />to find common ground + preserve key relationships for <br /> successful project outcomes.</li>
+                  <li>Attentive to details, reliable, fast learner.</li>
+                  <li>Independent and punctual.</li>
                </ul>
             </div>
          </div>

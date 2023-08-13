@@ -133,7 +133,7 @@ export default function Project3() {
         <div className="Project3-out">
           {alertInfo &&
             <div>
-              <p> Hello.  To get data on a client, you first need to select it (to choose customer).  Thank you. </p>
+              <p> To get data on a client, you first need to select it (to choose customer). </p>
             </div>
           }
           <ul>
