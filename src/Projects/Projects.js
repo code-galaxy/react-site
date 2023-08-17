@@ -7,7 +7,7 @@ import Project4 from './Project4/Project4';
 function Projects() {
    return (
       <div className="Sidebar-site">
-         <h1>My pet (React) Projects is here</h1>
+         <h1> Projects on React</h1>
 
          <section className="section project2-style">
             <div className="about-project">

@@ -52,7 +52,7 @@ export default function About() {
                   <li>Highly self motivated profesional whith strong <br />intrinsic drive to excel and achieve results.</li>
                   <li>Skilled in managing complex projects, effectively  <br />allocating resourses ande optimising team productivity.</li>
                   <li> Able to leverege persuasive communication tachniques<br />to negotiate with key stakeholders and drive positive <br />outcomes for organizations.</li>
-                  <li>Able to mediate complex disputes, utalisting diplomacy  <br />to find common ground + preserve key relationships for <br /> successful project outcomes.</li>
+                  <li>Able to mediate complex disputes, utalising diplomacy  <br />to find common ground + preserve key relationships for <br /> successful project outcomes.</li>
                   <li>Attentive to details, reliable, fast learner.</li>
                   <li>Independent and punctual.</li>
                </ul>
