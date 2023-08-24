@@ -3,6 +3,7 @@ import certificateHtmlCss from "./images/Certificate-HTML&CSS.png";
 import certificateJS from "./images/Certificate-JS.png";
 import certificateJsFunc from "./images/Certificate-JS-Function.png";
 import certificateJSArray from "./images/Certificate-JS-Array-Methods.png";
+import certificateReactJS from "./images/Certificate-ReactJS.png";
 
 export default function About() {
    return (
@@ -63,10 +64,12 @@ export default function About() {
          <div className='about-certificate'>
             <h2>CERTIFICATES</h2>
             <div className="about-img">
-               <a href="https://itgid.info/ua/certificate/view?Certificate%5Buid%5D=htsf6fmr4qdk" target="_blanc" ><img src={certificateHtmlCss} alt="HTML&CSS" title="HTML&CS" /></a>
+               <a href="https://itgid.info/ua/certificate/view?Certificate%5Buid%5D=1pxf9mmvpru9" target="_blanc"> <img src={certificateReactJS} alt="React JS" title="React JS" /></a>
                <a href="https://itgid.info/ua/certificate/view?Certificate%5Buid%5D=7e2t9kftqa9d" target="_blanc"><img src={certificateJS} alt="Java Script" title="Java Script" /></a>
                <a href="https://itgid.info/ua/certificate/view?Certificate%5Buid%5D=3ytamf9u8sfd" target="_blanc"><img src={certificateJsFunc} alt="JS Function" title="JS Function" /></a>
                <a href="https://itgid.info/ua/certificate/view?Certificate%5Buid%5D=19rd8j5suecn" target="_blanc"> <img src={certificateJSArray} alt="JS Array Method" title="JS Array Method" /></a>
+               <a href="https://itgid.info/ua/certificate/view?Certificate%5Buid%5D=htsf6fmr4qdk" target="_blanc" ><img src={certificateHtmlCss} alt="HTML&CSS" title="HTML&CS" /></a>
+
             </div>
          </div>
       </div>
