@@ -10,7 +10,7 @@ export default function Contacts() {
    return (
       <div className="Contacts-site">
          <div className="contacts-description">
-            <h1 >Contact. Connect. Chat.</h1>
+            <h1 >Connect. Chat.</h1>
             <p>If you want to get in touch, fill out the form below and I’ll get right back to you. <br /> Alternatively, you can use any of our social channels to reach with me.</p>
          </div>
          <div className="container-contacts">
