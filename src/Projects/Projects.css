@@ -1,9 +1,13 @@
-.Sidebar-site {
+.Projects-container{
    padding: 10px;
    margin: 25px 0px;
    /* height: 100vh; */
 }
-
+.Projects-container h2{
+   text-align: center;
+   letter-spacing: 5px;
+   color: gray;
+}
 .section {
    display: grid;
    grid-template-areas:
@@ -39,7 +43,7 @@
 
 .app-project {
    grid-area: rightside;
-   background-color:#282a30;
+   background-color: #282a30;
    border-radius: 10px;
    color: white;
    box-shadow: inset 0px 0px 5px 0px gray;
@@ -67,9 +71,14 @@ h3 {
    margin: 10px 0;
 }
 
+.about-project h3 span {
+   color: gold;
+}
+
 .about-project p,
 li {
    color: white;
+   margin: 10px 0 0 10px;
 }
 
 .link-to-code a {
