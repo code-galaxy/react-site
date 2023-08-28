@@ -12,16 +12,17 @@ export default function About() {
          <div className="about-description trek">
             <div className="about-stack">
                <h2>Skills</h2>
+               
                <ul>
-                  <li>Java Script</li>
-                  <li>HTML & CSS</li>
+                  <li>Java Script </li>
+                  <li>HTML & CSS </li>
                   <li>React JS</li>
                   <li>React SPA, MPA</li>
                   <li>React-router-dom</li>
                   <li>Redux toolkit</li>
                   <li>Redux</li>
                   <li>Cypress test automate</li>
-                  <li>MySQL</li>
+                  <li>MySQL </li>
                   <li>Git</li>
                   <li>Bootstrap</li>
                   <li>JIRA, Agile/Scram</li>

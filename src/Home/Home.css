@@ -28,15 +28,15 @@
 }
 
 .home-me-info {
-   padding-left: 30px;
-   font-size: 28px;
+   padding-left: 40px;
+   font-size: 30px;
    /* background-color: #2c2e50; */
    color: white;
 
 }
 
 .home-me-info p {
-   margin-bottom: 15px;
+   margin-bottom: 30px;
 }
 
 .home-congratulation {

@@ -1,22 +1,13 @@
 import React from "react";
 import "./Project4.css";
 
-import Create from "./Elements/Create4";
-import Erorr from "./Elements/Erorr4";
-import Header from "./Elements/Header4";
-import Main from "./Elements/Main4";
-import Note from "./Elements/Note4";
 
 export default function Project4() {
    return (
       <div className="main">
          <div>
-         <Header />
-         <Main />
-         <Create />
-         <Note />
-         <Note />
-         <Erorr />
+            <p>coming soon</p>
+         <h1>The project is under development</h1>
          </div>
          <div className="link-to-code">
 
