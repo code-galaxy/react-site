@@ -19,8 +19,18 @@
    color: gray;
    text-decoration: underline;
 }
-
-
+.about-experience li h4, .about-experience li h4 a {
+color: gold;
+}
+.about-experience li h4 a:hover {
+   text-decoration: underline;
+   }
+.about-experience {
+      width: 35%;
+   }
+.personal-qualities{
+   width: 40%;
+}
 .about-certificate {
    display: flex;
    flex-direction: column;
@@ -70,7 +80,8 @@
 
 .about-link-cv a {
    text-decoration: underline;
-   color: gray;
+   color: lightgray;
    font-weight: 800;
-   font-size: 14px;
+   font-size: 16px;
+   letter-spacing: 1.5px;
 }
