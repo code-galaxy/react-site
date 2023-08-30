@@ -25,11 +25,11 @@ export default function Contacts() {
                </div>
             </div>
             <div className="contacts-form">
-               <form action="" onSubmit={sendRequest}>
-                  <div><input type="text" name="filename" placeholder="Your name"/></div>
-                  <div><input type="text" name="filedata" placeholder="Email address"/></div>
-                  <textarea name="textarea" id="textarea" cols="" rows="5" placeholder="Text"></textarea>
-                  <div><button className="contacts-btn" type="sumbit">Send me</button></div>
+               <form action="#" onSubmit={sendRequest}>
+                  <div><input type="text" name="name" placeholder="Your name"/></div>
+                  <div><input type="text" name="email" placeholder="E-mail"/></div>
+                  <textarea name="textarea" id="textarea" cols="" rows="5" placeholder="Message"></textarea>
+                  <div><button className="contacts-btn" type="sumbit">Send to me</button></div>
                </form>
             </div>
          </div>
