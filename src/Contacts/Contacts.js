@@ -3,10 +3,52 @@ import "./Contacts.css";
 
 export default function Contacts() {
 
-   const sendRequest = (event) => {
+   async function formSend(event) {
       event.preventDefault();
-      console.log(true)
+      const form = event.target.elements;
+      const formName = form.name.value;
+      const formEmail = form.email.value;
+      const formText = form.textarea.value;
+      console.log(form);
+
+      console.log(formName);
+      console.log(formEmail);
+      console.log(formText);
+
+      let formData = new FormData();
+      console.log(formData);
+      formData.append("name", formName);
+      formData.append("email", formEmail);
+      formData.append("message", formText);
+
+      let response = await fetch('sendmail.php', {
+         method: 'POST',
+         body: formData
+      });
+
+      if (response.ok) {
+         let result = await response.json();
+         console.log(result.message);
+         // form.name.value = '';
+         // form.email.value = '';
+         // form.textarea.value = '';
+         form.reset();
+      }
+      else {
+         alert("error")
+      }
+
+
+      let error = formValidate(form);
+
+
    }
+
+   function formValidate() {
+      let error = 0;
+
+   }
+
    return (
       <div className="Contacts-site">
          <div className="contacts-description">
@@ -25,9 +67,9 @@ export default function Contacts() {
                </div>
             </div>
             <div className="contacts-form">
-               <form action="#" onSubmit={sendRequest}>
-                  <div><input type="text" name="name" placeholder="Your name"/></div>
-                  <div><input type="text" name="email" placeholder="E-mail"/></div>
+               <form action="#" onSubmit={formSend}>
+                  <div><input type="text" name="name" placeholder="Your Name" /></div>
+                  <div><input type="text" name="email" placeholder="Your Email" /></div>
                   <textarea name="textarea" id="textarea" cols="" rows="5" placeholder="Message"></textarea>
                   <div><button className="contacts-btn" type="sumbit">Send to me</button></div>
                </form>
