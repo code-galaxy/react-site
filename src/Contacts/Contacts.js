@@ -61,7 +61,7 @@ export default function Contacts() {
                   </div>
                   {/* <label htmlFor="formMessage"className="labelForm">Message:</label> */}
                   <textarea name="message" id="formMessage" cols="1" rows="5" placeholder="Message"></textarea>
-                  <div><button className="contacts-btn" type="sumbit" value="Send">Send to me</button></div>
+                  <div><button className="contacts-btn" type="sumbit" value="Send">Send</button></div>
                </form>
             </div>
          </div>
