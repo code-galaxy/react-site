@@ -58,7 +58,7 @@
 
 .contacts-first-icon a i {
    font-size: 30px;
-   margin-right: 50px;
+   /* margin-right: 50px; */
 }
 
 .contacts-form {
@@ -78,18 +78,29 @@ textarea {
    border: none;
    border-radius: 5px;
    color: black;
-   font-size: 16px;
+   font-size: 14px;
    letter-spacing: 1px;
    resize: vertical;
+}
+.labelForm{
+font-size: 16px;
+letter-spacing: 1px;
+margin: 0;
 }
 
 .contacts-form input:focus {
    box-shadow: 0 0 5px 3px lightgray;
 }
 
+
 textarea:focus {
    box-shadow: 0 0 5px 3px lightgray;
 }
+
+._error{
+   box-shadow: 0 0 5px 3px red;
+}
+
 
 .contacts-btn {
    width: 100%;
