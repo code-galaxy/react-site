@@ -10,15 +10,6 @@ export default function Contacts() {
 
    const sendEmail = (e) => {
       e.preventDefault();
-      // if (form.current.user_name.value.length > 2 && typeof +form.current.user_name.value !== "number") {
-      //    form.current.user_name.classList.remove('_error');
-      //    console.log(form.current.user_name.value);
-      //    console.log(form.current.user_name.value.length);
-      // }
-      // else {
-      //    form.current.user_name.classList.add('_error');
-      //    alert(`Enter your name`)
-      // }
       emailjs.sendForm('service_4enlo03', 'template_4z25psi', form.current, 'SwNdTQVxGtB-PrYXL')
          .then((result) => {
             console.log(result.text);

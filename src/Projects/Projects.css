@@ -75,10 +75,9 @@ h3 {
    color: gold;
 }
 
-.about-project p,
-li {
+.about-project p, li {
    color: white;
-   margin: 10px 0 0 10px;
+   margin: 10px 0 0 20px;
 }
 
 .link-to-code a {

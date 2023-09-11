@@ -3,28 +3,30 @@ import Project1 from './Project1/Project1';
 import Project2 from './Project2/Project2';
 import Project3 from './Project3/Project3';
 import Project4 from './Project4/Project4';
+import Project5 from './Project5/Project5';
 
 function Projects() {
    return (
       <div className="Projects-container">
          <h2> Projects on React JS</h2>
-
-         {/* <section className="section project2-style">
+        
+         <section className="section project2-style">
             <div className="about-project">
                <h1>Project #5</h1>
-               <h3><span>Games</span></h3>
+               <h3><span>Todo list</span></h3>
                <p>Description :</p>
                <ul>
                   <li>Used React.useState()</li>
                </ul>
             </div>
             <div className="app-project">{<Project5 />}</div>
-         </section> */}
+         </section>
+       
 
          <section className="section project2-style">
             <div className="about-project">
                <h1>Project #4</h1>
-               <h3><span>Todo list</span></h3>
+               <h3><span>Login page</span></h3>
                <p>Description :</p>
                <ul>
                   <li>Used React.useState()</li>
