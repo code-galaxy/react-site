@@ -25,7 +25,7 @@
 
 .contacts-info,
 .contacts-form {
-   margin: 5px;
+   /* margin: 5px; */
    width: 50%;
 }
 
@@ -37,28 +37,38 @@
 .contacts-copyright span {
    font-size: 20px;
    font-weight: bold;
-   background-color: ;
 }
 
-.contacts-copyright p {
+/* .contacts-copyright p {
    margin: 10px 0;
+} */
+
+.contacts-info-icon {
+   position: relative;
+   margin: 30px 0;
 }
 
-.icon {
-   color: gray;
-   margin: 10px 25px 10px 0;
+.contacts-info-icon .icon,
+.contacts-info-icon a .icon {
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   transform: translateY(-50%);
+   margin: 10px 0 10px 0;
    font-size: 2rem;
-   padding: 10px 0;
+   /* padding: 10px 0; */
 }
 
-.icon:hover {
-   color: white;
-   transition: all .3s;
+.contacts-info-icon p {
+   margin-left: 60px;
+}
+.contacts-info-icon  a .icon:hover{
+   color: gold;
 }
 
-.contacts-first-icon a i {
-   font-size: 30px;
-   /* margin-right: 50px; */
+.contacts-info-icon a:hover {
+   text-decoration: underline;
+   /* transition: all .3s; */
 }
 
 .contacts-form {
@@ -82,10 +92,11 @@ textarea {
    letter-spacing: 1px;
    resize: vertical;
 }
-.labelForm{
-font-size: 16px;
-letter-spacing: 1px;
-margin: 0;
+
+.labelForm {
+   font-size: 16px;
+   letter-spacing: 1px;
+   margin: 0;
 }
 
 .contacts-form input:focus {
@@ -97,7 +108,7 @@ textarea:focus {
    box-shadow: 0 0 5px 3px lightgray;
 }
 
-._error{
+._error {
    box-shadow: 0 0 5px 3px red;
 }
 
